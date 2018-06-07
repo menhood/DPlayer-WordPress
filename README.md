@@ -16,14 +16,23 @@
 ```
 [dplayer url="https://ddns.menhood.wang:2233/Violet.mp4" pic="https://ddns.menhood.wang:2233/violet.jpg" danmu=true /]
 ```
+
 `url`是视频地址；
+
 `pic`是视频封面地址；
+
 `danmu`是弹幕开关，true是打开，false是关闭；
+
 还有一些其他的参数：
+
 自动播放：'autoplay'、截图：'screenshot'、循环播放：'loop'、预加载：'preload'、热键：'hotkey'
+
 flv和hls支持在wordpress仪表盘`设置-DPlayer`里面,token和弹幕服务器地址可以默认，也可以根据自己的需要修改，
+
 这里是[弹幕服务器后端](https://github.com/menhood/DPlayer-node),
+
 其他参数看起来好像没有定义，看的不是很懂，今天先到这。
+
 ### 原文档
 [DPlayer](https://github.com/DIYgod/DPlayer) is such a lovely HTML5 danmaku video player by [DIYGod](https://github.com/DIYgod), and it's used on many platforms (as listed below). 
 - [DPlayer-for-typecho](https://github.com/volio/DPlayer-for-typecho)
