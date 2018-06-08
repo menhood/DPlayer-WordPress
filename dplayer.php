@@ -102,7 +102,7 @@ function add_my_media_button() {
     
     </div>
     <div id="dplistiframe" style="display:none; ">
-    <iframe name="iframechild" id="iframechild" src="http://api.menhood.wang/dplayerlist/index.html"  border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=768 height=350 > </iframe>
+    <iframe name="iframechild" id="iframechild" src="http://api.menhood.wang/dpplayist/index.php"  border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=768 height=350 > </iframe>
     </div>
  </div>    
 EOF;
