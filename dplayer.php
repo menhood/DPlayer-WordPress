@@ -130,7 +130,7 @@ class DPlayer {
     
     //↓↓↓ registers default options 注册默认选项
     public static function dplayer_install() {
-        add_option( 'kblog_danmaku_url', '//danmaku.daoapp.io' );//添加选项 弹幕服务器地址 默认值
+        add_option( 'kblog_danmaku_url', 'https://api.menhood.wang/dplayer' );//添加选项 弹幕服务器地址 默认值
         add_option( 'kblog_danmaku_token', 'tokendemo' );//添加选项 弹幕令牌 默认值
         add_option( 'kblog_danmaku_dplayer_version', '1.6.1' );//添加选项 dplayer版本 默认值
         add_option( 'kblog_danmaku_dplayer_version_check', '0' );//添加选项 dplayer版本检查 默认值
